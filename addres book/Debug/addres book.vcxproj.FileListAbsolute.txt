@@ -1,0 +1,2 @@
+D:\VS2019 project\addres book\Debug\addres book.exe
+D:\VS2019 project\addres book\Debug\addres book.pdb
