@@ -170,7 +170,7 @@ void modify(Contact* pcon)
 			}
 			else if (input == 5)
 			{
-				printf("请输入修改后的地址：");
+				printf("请输入修改后的地址为：");
 				scanf("%s", m_addr);
 				strcpy(pcon->data[flag].addr, m_addr);
 				break;
@@ -186,7 +186,7 @@ void empty(Contact* pcon)
 {
 	assert(pcon != NULL);
 	int choose = 0;
-	printf("你确定要清空数据吗?(1.Yes 2.No):");
+	printf("你确定要清空数据吗?(1.Yes   2.No):");
 	scanf("%d", &choose);
 	if (choose == 2)
 	{
