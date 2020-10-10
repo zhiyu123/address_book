@@ -216,5 +216,5 @@ void sort(Contact* pcon)			//排序
 			}
 		}
 	}
-	printf("按照年龄排序完成！\n");
+	printf("按照年龄（升序）排序完成！\n");
 }
