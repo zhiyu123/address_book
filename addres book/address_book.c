@@ -43,7 +43,7 @@ int main()
 		case EMPTY:
 			empty(&con);
 			break;
-		case SORT:   //Î´Íê³É
+		case SORT:   
 			sort(&con);
 			break;
 		default:

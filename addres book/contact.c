@@ -199,7 +199,7 @@ void empty(Contact* pcon)
 	}
 }
 
-void sort(Contact* pcon)			//未完成
+void sort(Contact* pcon)			//排序
 {
 	assert(pcon != NULL);
 	int i = 0;
@@ -212,7 +212,7 @@ void sort(Contact* pcon)			//未完成
 			{
 				pcon->data[MAX_PERSON - 1] = pcon->data[j];
 				pcon->data[j] = pcon->data[j + 1];
-				pcon->data[j + 1] = pcon->data[0];
+				pcon->data[j + 1] = pcon->data[MAX_PERSON - 1];
 			}
 		}
 	}
